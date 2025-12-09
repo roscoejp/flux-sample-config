@@ -1,1 +1,1 @@
-# flux-sample-config
+# sample-config

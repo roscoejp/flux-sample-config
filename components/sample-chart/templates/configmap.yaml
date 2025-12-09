@@ -1,0 +1,9 @@
+{{- range $index, $name := .Values.names }}
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .prefix }}-{{ $config.name }}-{{ .suffix }}
+data:
+  name: {{ .prefix }}-{{ $config.name }}-{{ .suffix }}
+---
+{{- end }}

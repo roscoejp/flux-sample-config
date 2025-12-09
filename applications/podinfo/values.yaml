@@ -1,0 +1,3 @@
+---
+# Example using [Podinfo](https://github.com/stefanprodan/podinfo) values
+replicaCount: 1
