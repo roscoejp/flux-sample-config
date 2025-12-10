@@ -2,8 +2,8 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: {{ .prefix }}-{{ $config.name }}-{{ .suffix }}
+  name: "{{ .prefix }}-{{ .name }}-{{ .suffix }}"
 data:
-  name: {{ .prefix }}-{{ $config.name }}-{{ .suffix }}
+  name: "{{ .prefix }}-{{ .name }}-{{ .suffix }}"
 ---
 {{- end }}
